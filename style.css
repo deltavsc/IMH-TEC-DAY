@@ -1,0 +1,309 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+#top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 5px;
+    background-color: #e6e6e6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5rem;
+    font-family: 'OpenSans', Arial, sans-serif;
+    
+    font-size: 12px;
+    
+}
+#top-bar > a {
+    text-decoration: none;
+    color: #333;
+}
+#top-bar > a:hover {
+    text-decoration: underline;
+}
+
+.fa-lock{
+    background-color: aqua;
+    border-radius: 50%;
+    padding: 5px;
+    width: 25px;
+    text-align: center;
+    height: 20px;
+}
+.fa-envelope{
+    background-color: aqua;
+    border-radius: 50%;
+    padding: 5px;
+    width: 25px;
+    text-align: center;
+    height: 20px;
+}
+
+header > nav{
+    display: flex;  
+}
+
+nav {
+    gap: 5rem;   
+}
+
+nav > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #3C2F2F;
+    text-align: left;
+    margin-top: 25px; 
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+#escolair{
+  font-size: 40px;
+  margin-top: 5%;
+    
+}
+.container{
+  width: 100%;
+  height: 100%;
+  background: url(imgs/imhEstudantes.png) no-repeat;
+  background-size: cover;
+  font-size: 64px;
+  color: white;
+}
+
+.school-name{
+  display: flex;
+  justify-content: center;
+}
+
+/*bolinhas rosas do lado do titulo */
+.school-name .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #FFA5AE;
+    border-radius: 100%;
+    margin-bottom: 15px;
+    margin-top: 6.5%;
+  }
+  
+  /*bolinhas azuis do lado do titulo */
+  .school-name .dot21 {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #A5CFFF;
+    border-radius: 100%;
+    margin-top: 6.5%;
+    margin-bottom: 15px;
+    margin-left: 12px;;
+    margin-right: 10px;
+  }
+  .school-name .dot22 {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #A5CFFF;
+    border-radius: 100%;
+    margin-top: 6.5%;
+    margin-bottom: 15px;
+    margin-right: 12px;
+    margin-left: 10px;
+  }
+  
+  /* Título */
+  .title {
+    position: relative;
+    height: 100vh;
+    color: white;
+    
+  }
+  
+  .irma {
+    color: #A5CFFF;
+    top: 30%;
+    left: 23%;
+    transform: translateY(-50%);
+    margin-bottom: 120px;
+    font-size: 7rem;
+    font-weight: bold;
+    position: absolute;
+  }  
+ 
+  
+  .maria {
+    color: #ffffff;
+    writing-mode: vertical-lr;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(360deg);
+    font-size: 5rem;
+    position: absolute;
+    font-weight: bold;
+    
+  }
+  
+  .horta {
+    color: #FFA5AE;
+    top: 50%;
+    right: 16%;
+    font-size: 7rem;
+    transform: translateY(-50%);
+    margin-top: 100px;
+    font-weight: bold;
+    position: absolute;
+  }
+
+  
+
+  .experiencia .exph1 {
+    color: #333;
+    margin-top: 15%;
+    margin-bottom: 20px;
+    font-family: 'OpenSans', Arial, sans-serif;
+    text-align: center;
+    font-weight: normal;
+  }
+
+ #paragraoDedicacao {
+    color: #333;
+    width: 70%;
+    display: inline-block;
+    font-size: 20px;
+    text-align: justify; 
+  }
+
+  .Trabalho{
+    display: flex;           /* Ativa o layout flexbox */
+    width: 100vw;            /* Usa 100% da largura da tela */
+    height: 100vh;           /* Usa 100% da altura da tela */
+    margin: 0;               /* Remove margens externas */
+    padding: 0; 
+    margin-top: 10%;
+  }
+
+.trabalhoimg, .trabalhoeduca{
+  width: 50%;              /* Garante que cada lado ocupe metade */
+  height: 100%;
+}
+
+.trabalhoeduca{      
+  font-family:'OpenSans', Arial, sans-serif; ;    
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+  background-color: #EBEBEB; /* Apenas para visualização */
+  background: url(imgs/log.jpg) no-repeat center center ;
+  background-size: 400px;
+  opacity: 60%;
+  margin-top: 70px;
+  
+}
+
+.trabalhoeduca > h1 {
+  
+  font-size: 60px;
+  font-weight: 20;
+  color: black;
+  
+}
+
+.trabalhoeduca > p{
+  margin-top: 9%;
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+  
+}
+
+.trabalhoimg{
+  display: flex;           /* Garante o alinhamento da imagem */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+
+  
+}
+
+.trabalhoimg img{
+  width: 100%;            /* Faz a imagem ocupar toda a largura do contêiner */
+  height: 100%;           /* Faz a imagem ocupar toda a altura do contêiner */
+  object-fit: cover;      /* Garante que a imagem se ajuste proporcionalmente */
+}
+
+.Depoimentos{
+  font-family: 'OpenSans', Arial, sans-serif;
+  display: flex;
+  background-color: #002F6C;
+  background-size: cover;
+  color: white;
+  height: 40vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#luciana{
+  width: 400px;
+  padding: 2%;
+ 
+  
+}
+
+#pais{
+  font-size: 20px;
+}
+#marcelo{
+  width: 500px;
+  padding: 2%;
+}
+
+footer{
+  font-family: 'OpenSans', Arial, sans-serif; 
+  background: url(imgs/imgfooter.jpeg);
+  background-size: cover;
+  color: white;
+  text-align: center;          /* Centraliza o conteúdo */
+  padding: 40px 20px;          /* Espaçamento interno */
+  width: 100%;                 /* Ocupa toda a largura */
+  position: relative;          /* Ajusta para ocupar a largura completa */
+  bottom: 0;                   /* Fica ao final da página */
+}
+
+footer > h1{
+  margin-top: 5%;
+  margin-bottom: 0.5%;
+}
+
+footer > p{
+  margin-bottom: 1.5%;
+}
+
+footer > button {
+  background-color: #1070A0;
+  color: white;
+  padding-right: 40px;
+  padding-left:40px;;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 40px;
+}
+
+footer > button > a{
+  text-decoration: none;
+  color: white;
+}
+
+footer > button > a:hover{
+  text-decoration: underline;
+}
+
+
+
+
